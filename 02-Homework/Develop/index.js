@@ -26,18 +26,18 @@ const questions = [{
 {
     type: 'input',
     message: 'Did anyone else contribute to this application',
-    name: 'contribution',
+    name: 'Contribution',
 },
 {
     type: 'input',
     message: 'How do you test your application',
-    name: 'test',
+    name: 'Test',
 },
 {
     type: 'list',
     message: 'What license are you using',
-    name: 'license',
-    choice: ['MIT License', 'GVL GPL License', 'Apache License', 'No License']
+    name: 'License',
+    choices: ['MIT License', 'GVL GPL License', 'Apache License', 'No License']
 },
 {
     type: 'input',
@@ -47,12 +47,12 @@ const questions = [{
 {
     type: 'input',
     message: 'What is your email',
-    name: 'email',
+    name: 'Email',
 },
 {
     type: 'input',
     message: 'Any questions',
-    name: 'questions',
+    name: 'Questions',
 },
 ];
 
@@ -63,11 +63,18 @@ function writeToFile(fileName, data) {
             throw err;
         }
         console.log("ReadMe was created");
-    })
+    });
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((answers) =>{
+        const response = generateMarkdown(answers);
+        console.log(answers);
+
+        writeToFile("README.md", response)
+    })
+}
 
 // Function call to initialize app
 init();
