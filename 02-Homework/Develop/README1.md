@@ -28,9 +28,14 @@
   ## Questions
   Contact Information
 
-  Github [Gustaf-987](https://github.com/Gustaf-987)
+  Github [Gustaf-987](https://github.com/Gustaf-987/ReadMe-Generator/tree/master/02-Homework/Develop)
 
   Email: test@test.com
 
-  <img src="02-Homework\Develop\utils\demo.png">
-  <img src="02-Homework\Develop\utils\demo1.png">
+  ## Video Walkthrough 
+  <br>
+  https://drive.google.com/file/d/1tJFNowUuq-vPLM3I8vaEOzkNb64b2g_g/view
+
+  <img src="02-Homework\Develop\demo.png">
+  <br>
+  <img src="02-Homework\Develop\demo1.png">
