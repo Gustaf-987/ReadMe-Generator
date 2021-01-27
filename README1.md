@@ -1,4 +1,4 @@
-# test
+# Readme Generator
 
   ## Table of Contents
   * [Description](#Description)
@@ -19,7 +19,7 @@
   ## Contribution
   n/a
   ## Test
-  Very carefully
+  n/a
   ## Questions
   N/a
   ## License
@@ -36,6 +36,6 @@
   <br>
   https://drive.google.com/file/d/1tJFNowUuq-vPLM3I8vaEOzkNb64b2g_g/view
 
-  <img src="02-Homework\Develop\demo.png">
+  ![Screenshot](https://github.com/Gustaf-987/ReadMe-Generator/blob/master/02-Homework/Develop/demo.png)
   <br>
-  <img src="02-Homework\Develop\demo1.png">
+  ![Screenshot](https://github.com/Gustaf-987/ReadMe-Generator/blob/master/02-Homework/Develop/demo1.png)
