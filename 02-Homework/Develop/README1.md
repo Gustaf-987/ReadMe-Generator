@@ -11,25 +11,26 @@
   * 
   
   ## Description
-  test
+  A readme generator for you projects
   ## Installation
-  undefined
+  Clone it from the repo
   ## Usage
-  test
+  Enter the prompts and watch your readme come to life
   ## Contribution
-  no
+  n/a
   ## Test
-  no
+  Very carefully
   ## Questions
-  no
+  N/a
   ## License
   No License
 
   ## Questions
   Contact Information
 
-  Github [test](https://github.com/test)
+  Github [Gustaf-987](https://github.com/Gustaf-987)
 
-  Email: test
+  Email: test@test.com
 
-
+  <img src="02-Homework\Develop\utils\demo.png">
+  <img src="02-Homework\Develop\utils\demo1.png">
