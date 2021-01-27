@@ -6,37 +6,37 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [{
     type: 'input',
     message: 'What is the title of your project',
-    name: 'Title',
+    name: 'title',
 },
 {
     type: 'input',
     message: 'What is the description of your project',
-    name: 'Description'
+    name: 'description'
 },
 {
     type: 'input',
     message: 'What is the installation process',
-    name: 'Install',
+    name: 'install',
 },
 {
     type: 'input',
     message: 'How do you use the application',
-    name: 'Usage',
+    name: 'usage',
 },
 {
     type: 'input',
     message: 'Did anyone else contribute to this application',
-    name: 'Contribution',
+    name: 'contribution',
 },
 {
     type: 'input',
     message: 'How do you test your application',
-    name: 'Test',
+    name: 'test',
 },
 {
     type: 'list',
     message: 'What license are you using',
-    name: 'License',
+    name: 'license',
     choices: ['MIT License', 'GVL GPL License', 'Apache License', 'No License']
 },
 {
